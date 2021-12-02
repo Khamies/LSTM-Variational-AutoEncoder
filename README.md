@@ -39,9 +39,52 @@ Here are the results from training the LSTM-VAE model:
 
   <img src="./media/elbo.jpg" style="zoom:3%;" />
 
+
+
+
+
 ### Inference
 
--  
+#### 1. Sample Generation
+
+Here is a generated sample from the model, when z ~ N(0,I) is given to the decoder.
+
+
+
+#### 2. Interpolation
+
+Here "President" word has been used as the start of the sentences, and randomly generate two sentences for apply on them linear interpolation.
+
+- **President bush veto power changes meant to be a great number**
+
+- **President bush veto power opposed to the president of the house**
+
+  
+
+  **bush veto power opposed to the president of the house.**
+
+```markdown
+ bush veto power opposed to the president of the house.
+ bush veto power opposed to the president of the house.
+ bush veto power opposed to the president of the house.
+ bush veto power opposed to the president of the house.
+ bush veto power opposed to the president of the house.
+ bush veto power opposed to the president of the house.
+ bush veto power opposed to the president of the house.
+ bush veto power opposed to the president ' s council.
+ bush veto power opposed to the president ' s council.
+ bush veto power opposed to the president ' s council.
+ bush veto power opposed to the president ' s council.
+ bush veto power opposed to the president ' s council.
+ bush veto power that kind of <unk> of natural gas.
+ bush veto power changes to keep the <unk> and that.
+ bush veto power changes to keep the <unk> and that.
+ bush veto power changes that is in a telephone to.
+ bush veto power changes that is in a telephone to.
+ bush veto power changes meant to be a great number.
+```
+
+​	**bush veto power changes meant to be a great number.**
 
 ### Citation
 
@@ -58,6 +101,6 @@ Here are the results from training the LSTM-VAE model:
 
 ### Connect
 
+:mailbox: 
 
-
-### License
+### License 
