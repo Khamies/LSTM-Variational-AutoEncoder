@@ -5,10 +5,10 @@ PyTorch Implementation of Generating Sentences from a Continuous Space by Bowman
 
 - **[Setup](#Setup)**
 - [**Run the code**](#Run-the-code)
-- **Training**
-- **Inference**
-- **Connect with me**
-- **License** 
+- **[Training](#Training)**
+- **[Inference](#Inference)**
+- **[Connect with me](#Connect-with-me)**
+- **[License](#License)** 
 
 ### Setup
 
