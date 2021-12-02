@@ -40,11 +40,35 @@ Here are the results from training the LSTM-VAE model:
 
 - KL loss vs Reconstruction loss
 
-  <img src="./media/kl_reco.jpg" style="zoom:3%;" />
+  <img src="./media/kl_reco.jpg" style="zoom:1%;" />
 
 - ELBO loss
 
-  <img src="./media/elbo.jpg" style="zoom:3%;" />
+  <a href="url"><img src="./media/elbo.jpg" align="center" height="100" width="300" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -117,3 +141,4 @@ Follow me on [Linkedin](https://www.linkedin.com/in/khamiesw/)!
 ### License 
 
 ![](https://img.shields.io/github/license/khamies/Sequence-VAE)
+
