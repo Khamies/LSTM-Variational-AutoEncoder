@@ -116,4 +116,4 @@ Follow me on **[Linkedin]**(https://www.linkedin.com/in/khamiesw/).
 
 ### License 
 
-https://img.shields.io/apm/l/sequence_vae 
+https://img.shields.io/github/license/khamies/Sequence-VAE
