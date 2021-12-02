@@ -4,7 +4,7 @@ PyTorch Implementation of Generating Sentences from a Continuous Space by Bowman
 ### Table of Contents
 
 - **[Setup](#Setup)**
-- [**Run the code**](#Run)
+- [**Run the code**](#Run-the-code)
 - **Training**
 - **Inference**
 - **Connect with me**
