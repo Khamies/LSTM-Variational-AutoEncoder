@@ -25,19 +25,19 @@ Here are the results from training the LSTM-VAE model:
 
 - KL Loss
 
-  <img src="./media/kl.jpg" style="zoom:5%;" />
+  <img src="./media/kl.jpg" style="zoom:3%;" />
 
 - Reconstruction loss
 
-  <img src="./media/reco.jpg" style="zoom:5%;" />
+  <img src="./media/reco.jpg" style="zoom:3%;" />
 
 - KL loss vs Reconstruction loss
 
-  <img src="./media/kl_reco.jpg" style="zoom:5%;" />
+  <img src="./media/kl_reco.jpg" style="zoom:3%;" />
 
 - ELBO loss
 
-  <img src="./media/elbo.jpg" style="zoom:5%;" />
+  <img src="./media/elbo.jpg" style="zoom:3%;" />
 
 ### Inference
 
