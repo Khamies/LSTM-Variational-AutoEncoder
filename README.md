@@ -44,7 +44,7 @@ Here are the results from training the LSTM-VAE model:
 
 - ELBO loss
 
-  <a href="url"><img src="./media/elbo.jpg" align="center" height="400" width="600" >
+  <a href="url"><img src="./media/elbo.jpg" align="center" height="300" width="500" >
 
 
 
