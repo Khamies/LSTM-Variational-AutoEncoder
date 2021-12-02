@@ -3,8 +3,8 @@ PyTorch Implementation of Generating Sentences from a Continuous Space by Bowman
 
 ### Table of Contents
 
-- **Setup**
-- **Run the code**
+- **[Setup](#Setup)**
+- [**Run the code**](#Run the code)
 - **Training**
 - **Inference**
 - **Connect with me**
