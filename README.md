@@ -108,7 +108,7 @@ Here "President" word has been used as the start of the sentences. We randomly g
 
 ### Connect with me :slightly_smiling_face:
 
-For any question or a collaboration, drop me a message [here](mailto:khamiesw@outlook.com?subject=[GitHub]%20Source%20Han%20Sans)
+For any question or a collaboration, drop me a message [here](mailto:khamiesw@outlook.com?subject=[GitHub]%20Sequence-VAE%20Repo)
 
 Follow me on [Linkedin](https://www.linkedin.com/in/khamiesw/)!
 
