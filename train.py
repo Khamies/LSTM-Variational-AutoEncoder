@@ -44,14 +44,13 @@ class Trainer:
 
             self.optimizer.zero_grad()
 
-            return train_losses
 
             if batch_num % self.interval == 0 and batch_num > 0:
   
                 print('| epoch {:3d} | elbo_loss {:5.6f} | kl_loss {:5.6f} | recons_loss {:5.6f} '.format(
                     epoch, mloss.item(), KL_loss.item(), recon_loss.item()))
 
-        # return train_losses
+        return train_losses
 
     def test(self, test_losses, epoch, batch_size) -> list:
 
