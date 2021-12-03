@@ -118,7 +118,7 @@ The "President" word has been used as the start of the sentences. We randomly ge
 
 ### Acknowledgement
 
-- This work has been inspired from [here](https://github.com/timbmg/Sentence-VAE) , where I used the data prepossessing pipeline that is mentioned in that repo.
+- This work has been inspired from [Sentence-VAE](https://github.com/timbmg/Sentence-VAE) , where their data prepossessing pipeline is used.
 
 ### Connect with me :slightly_smiling_face:
 
