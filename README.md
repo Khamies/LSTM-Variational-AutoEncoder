@@ -3,7 +3,12 @@ PyTorch Implementation of Generating Sentences from a Continuous Space by Bowman
 
 ### Table of Contents
 
-[TOC]
+- **[Setup](#Setup)**
+- [**Run the code**](#Run-the-code)
+- **[Training](#Training)**
+- **[Inference](#Inference)**
+- **[Connect with me](#Connect-with-me)**
+- **[License](#License)** 
 
 ### Setup
 
@@ -25,19 +30,19 @@ To train the model all you need is to type:
 
 Here are the results from training the LSTM-VAE model:
 
-- KL Loss
+- **KL Loss**
 
   <img src="./media/kl.jpg" align="center" height="300" width="500" >
 
-- Reconstruction loss
+- **Reconstruction loss**
 
   <img src="./media/reco.jpg" align="center" height="300" width="500" >
 
-- KL loss vs Reconstruction loss
+- **KL loss vs Reconstruction loss**
 
   <img src="./media/kl_reco.jpg" align="center" height="300" width="500" >
 
-- ELBO loss
+- **ELBO loss**
 
   <img src="./media/elbo.jpg" align="center" height="300" width="500" >
 
@@ -48,8 +53,6 @@ Here are the results from training the LSTM-VAE model:
 #### 1. Sample Generation
 
 Here is a generated sample from the model, when z ~ N(0,I) is given to the decoder.
-
-
 
 #### 2. Interpolation
 
@@ -83,6 +86,31 @@ Here "President" word has been used as the start of the sentences. We randomly g
 >  bush veto power changes meant to be a great number.
 >
 > **bush veto power changes meant to be a great number.**
+
+
+
+```markdown
+**bush veto power opposed to the president of the house.**
+ bush veto power opposed to the president of the house.
+ bush veto power opposed to the president of the house.
+ bush veto power opposed to the president of the house.
+ bush veto power opposed to the president of the house.
+ bush veto power opposed to the president of the house.
+ bush veto power opposed to the president of the house.
+ bush veto power opposed to the president of the house.
+ bush veto power opposed to the president ' s council.
+ bush veto power opposed to the president ' s council.
+ bush veto power opposed to the president ' s council.
+ bush veto power opposed to the president ' s council.
+ bush veto power opposed to the president ' s council.
+ bush veto power that kind of <unk> of natural gas.
+ bush veto power changes to keep the <unk> and that.
+ bush veto power changes to keep the <unk> and that.
+ bush veto power changes that is in a telephone to.
+ bush veto power changes that is in a telephone to.
+ bush veto power changes meant to be a great number.
+**bush veto power changes meant to be a great number.**
+```
 
 
 
