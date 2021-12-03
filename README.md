@@ -37,9 +37,9 @@ And you should be ready to go to play with code and build upon it!
   - Batch size: `--batch_size`
   - bptt: `--bptt`
   - Learning rate: `--lr`
-  - Embedding size: `embed_size`
-  - Hidden size: `hidden_size`
-  - Latent size: `latent_size`
+  - Embedding size: `--embed_size`
+  - Hidden size: `--hidden_size`
+  - Latent size: `--latent_size`
 
 ### Training
 
