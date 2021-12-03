@@ -136,5 +136,5 @@ Follow me on [Linkedin](https://www.linkedin.com/in/khamiesw/)!
 
 ### License 
 
-![](https://img.shields.io/github/license/khamies/Sequence-VAE)
+![](https://img.shields.io/github/license/khamies/LSTM-Sequence-VAE)
 
