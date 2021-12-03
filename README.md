@@ -1,14 +1,23 @@
 # Sequence-VAE
-PyTorch Implementation of Generating Sentences from a Continuous Space by Bowman et al. 2015.
+[PyTorch Implementation of Generating Sentences from a Continuous Space by Bowman et al. 2015.](https://arxiv.org/abs/1511.06349)
+
+![](./media/model.jpg)
 
 ### Table of Contents
 
+- **[Introduction](#Introduction)**
 - **[Setup](#Setup)**
 - [**Run the code**](#Run-the-code)
 - **[Training](#Training)**
 - **[Inference](#Inference)**
 - **[Connect with me](#Connect-with-me)**
 - **[License](#License)** 
+
+
+
+### Introduction
+
+This is a  [PyTorch Implementation of Generating Sentences from a Continuous Space by Bowman et al. 2015.](https://arxiv.org/abs/1511.06349) where LSTM based VAE is trained on Penn Tree Bank dataset. 
 
 ### Setup
 
@@ -104,6 +113,12 @@ The "President" word has been used as the start of the sentences. We randomly ge
 >   howpublished = {\url{https://github.com/Khamies/Sequence-VAE}},
 > }
 > ```
+
+
+
+### Acknowledgement
+
+- This work has been inspired from [here](https://github.com/timbmg/Sentence-VAE) , where I used the data prepossessing pipeline that is mentioned in that repo.
 
 ### Connect with me :slightly_smiling_face:
 
