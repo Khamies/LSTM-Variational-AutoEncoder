@@ -50,47 +50,25 @@ Here are the results from training the LSTM-VAE model:
 
 ### Inference
 
-#### 1. Sample Generation
+##### 1. Sample Generation
 
-Here is a generated sample from the model, when z ~ N(0,I) is given to the decoder.
+Here are generated samples from the model. We randomly sampled two latent codes z from standard Gaussian distributions, and specify "like" as the start of the sentence (sos), then we feed them to the decoder. The following are the generated sentences:
 
-#### 2. Interpolation
+- **like other countries such as alex powers a former wang marketer** 
 
-Here "President" word has been used as the start of the sentences. We randomly generated two sentences and interpolated between them.
+- **like design and artists have been <unk> by how many <unk>**
+
+##### 2. Interpolation
+
+The "President" word has been used as the start of the sentences. We randomly generated two sentences and interpolated between them.
 
 - Sentence 1: **President bush veto power changes meant to be a great number**
-
 - Sentence 2: **President bush veto power opposed to the president of the house**
-
-  
-
->  **bush veto power opposed to the president of the house.**
->
->  bush veto power opposed to the president of the house.
->  bush veto power opposed to the president of the house.
->  bush veto power opposed to the president of the house.
->  bush veto power opposed to the president of the house.
->  bush veto power opposed to the president of the house.
->  bush veto power opposed to the president of the house.
->  bush veto power opposed to the president of the house.
->  bush veto power opposed to the president ' s council.
->  bush veto power opposed to the president ' s council.
->  bush veto power opposed to the president ' s council.
->  bush veto power opposed to the president ' s council.
->  bush veto power opposed to the president ' s council.
->  bush veto power that kind of <unk> of natural gas.
->  bush veto power changes to keep the <unk> and that.
->  bush veto power changes to keep the <unk> and that.
->  bush veto power changes that is in a telephone to.
->  bush veto power changes that is in a telephone to.
->  bush veto power changes meant to be a great number.
->
-> **bush veto power changes meant to be a great number.**
 
 
 
 ```markdown
-**bush veto power opposed to the president of the house.**
+ *bush veto power opposed to the president of the house
  bush veto power opposed to the president of the house.
  bush veto power opposed to the president of the house.
  bush veto power opposed to the president of the house.
@@ -109,7 +87,7 @@ Here "President" word has been used as the start of the sentences. We randomly g
  bush veto power changes that is in a telephone to.
  bush veto power changes that is in a telephone to.
  bush veto power changes meant to be a great number.
-**bush veto power changes meant to be a great number.**
+ *bush veto power changes meant to be a great number
 ```
 
 
