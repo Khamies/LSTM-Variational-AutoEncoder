@@ -1,5 +1,5 @@
-# Sequence-VAE
-[PyTorch Implementation of Generating Sentences from a Continuous Space by Bowman et al. 2015.](https://arxiv.org/abs/1511.06349)
+# LSTM Variational AutoEncoder (Sequence-VAE)
+[A PyTorch Implementation of Generating Sentences from a Continuous Space by Bowman et al. 2015.](https://arxiv.org/abs/1511.06349)
 
 ![](./media/model.jpg)
 
@@ -37,7 +37,7 @@ To train the model all you need is to type:
 
 ### Training
 
-Here are the results from training the LSTM-VAE model:
+The model is trained on 30 epochs using Adam as an optimizer with a learning rate 0.001. Here are the results from training the LSTM-VAE model:
 
 - **KL Loss**
 
