@@ -31,9 +31,15 @@ And you should be ready to go to play with code and build upon it!
 
 ### Run the code
 
-To train the model all you need is to type:
+- To train the model, run: `python main.py`
 
-- `python main.py`
+- To train the model with specific arguments, run: `python main.py --batch_size=64`. The following command-line arguments are available:
+  - Batch size: `--batch_size`
+  - bptt: `--bptt`
+  - Learning rate: `--lr`
+  - Embedding size: `embed_size`
+  - Hidden size: `hidden_size`
+  - Latent size: `latent_size`
 
 ### Training
 
