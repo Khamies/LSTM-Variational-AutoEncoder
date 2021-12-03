@@ -1,4 +1,4 @@
-# LSTM Variational AutoEncoder (Sequence-VAE)
+# LSTM Variational AutoEncoder (LSTM-Sequence-VAE)
 [A PyTorch Implementation of Generating Sentences from a Continuous Space by Bowman et al. 2015.](https://arxiv.org/abs/1511.06349)
 
 ![](./media/model.jpg)
