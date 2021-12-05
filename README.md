@@ -1,4 +1,5 @@
 # LSTM Variational AutoEncoder (LSTM-Sequence-VAE)
+
 [A PyTorch Implementation of Generating Sentences from a Continuous Space by Bowman et al. 2015.](https://arxiv.org/abs/1511.06349)
 
 ![](./media/model.jpg)
@@ -10,6 +11,7 @@
 - [**Run the code**](#Run-the-code)
 - **[Training](#Training)**
 - **[Inference](#Inference)**
+- **[Play with the model](#Play-with-the-model)**
 - **[Connect with me](#Connect-with-me)**
 - **[License](#License)** 
 
@@ -65,7 +67,7 @@ The model is trained on 30 epochs using Adam as an optimizer with a learning rat
 
 ### Inference
 
-##### 1. Sample Generation
+#### 1. Sample Generation
 
 Here are generated samples from the model. We randomly sampled two latent codes z from standard Gaussian distributions, and specify "like" as the start of the sentence (sos), then we feed them to the decoder. The following are the generated sentences:
 
@@ -73,7 +75,7 @@ Here are generated samples from the model. We randomly sampled two latent codes 
 
 - **like design and artists have been <unk> by how many <unk>**
 
-##### 2. Interpolation
+#### 2. Interpolation
 
 The "President" word has been used as the start of the sentences. We randomly generated two sentences and interpolated between them.
 
@@ -107,16 +109,20 @@ The "President" word has been used as the start of the sentences. We randomly ge
 
 
 
+## Play with the model
+
+To play with the model, a jupyter notebook has been provided, you can find it [here](https://github.com/Khamies/LSTM-Sequence-VAE/blob/main/play_with_model.ipynb)
+
 ### Citation
 
 > ```
 > @misc{Khamies2021SequenceVAE,
->   author = {Khamies, Waleed},
->   title = {PyTorch Implementation of Generating Sentences from a Continuous Space by Bowman et al. 2015},
->   year = {2021},
->   publisher = {GitHub},
->   journal = {GitHub repository},
->   howpublished = {\url{https://github.com/Khamies/Sequence-VAE}},
+> author = {Khamies, Waleed},
+> title = {PyTorch Implementation of Generating Sentences from a Continuous Space by Bowman et al. 2015},
+> year = {2021},
+> publisher = {GitHub},
+> journal = {GitHub repository},
+> howpublished = {\url{https://github.com/Khamies/Sequence-VAE}},
 > }
 > ```
 
